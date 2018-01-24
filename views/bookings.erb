@@ -1,0 +1,6 @@
+<p>Список записавшихся</p>
+<% @clients.each do |client| %>
+
+	<a href="/client/<%= client.id %>"<%= client.name %></a>
+
+<%end%>
